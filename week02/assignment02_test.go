@@ -13,10 +13,11 @@ func TestCollectionArray(t *testing.T) {
 	//working with array
 	exp := [4]string{"John", "Paul", "George", "Ringo"}
 	// act as empty variable
-	act := make([]string, 0, len(exp))
+	act := [4]string{}
+	//act := make([]string, 0, len(exp))
 	//iteration in exp
 	for i := range exp {
-		act = append(act, exp[i])
+		act[i] = exp[i]
 	}
 	fmt.Printf("%q\n", act)
 	
