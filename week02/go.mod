@@ -1,4 +1,5 @@
-module assignment02_test
+module gopherguides/gopherguides-intro-to-go
+
 
 go 1.16
 

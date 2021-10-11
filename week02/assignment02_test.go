@@ -1,4 +1,6 @@
-package assignment02_test
+//package assignment02_test
+package main
+
 
 import (
 	"testing"
