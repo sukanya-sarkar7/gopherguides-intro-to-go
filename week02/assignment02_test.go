@@ -5,7 +5,7 @@ package main
 import (
 	"testing"
 	"fmt"
-	"github.com/bmizerany/assert"
+	"github.com/stretchr/testify/assert"
 )	
 
 
